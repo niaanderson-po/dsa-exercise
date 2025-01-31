@@ -1,7 +1,8 @@
-# Fill each empty room (INF) in a grid with the distance to its nearest gate (0), or leave it as INF if no gate is reachable. Leave the walls (-1) as is.
+#Class to fill each empty room (INF) in a grid with the distance to its nearest gate (0), or leave it as INF if no gate is reachable. Leave the walls (-1) as is.
 from collections import deque
 
 class Solution:
+
     def wallsAndGates(self, rooms: list[list[int]]) -> None:
         """
         Do not return anything, modify rooms in-place instead.

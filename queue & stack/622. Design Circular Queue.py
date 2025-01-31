@@ -8,7 +8,6 @@ class MyCircularQueue:
         self.headIndex = 0
         self.count = 0
         
-
     def enQueue(self, value: int) -> bool:
         if self.isFull():
             return False

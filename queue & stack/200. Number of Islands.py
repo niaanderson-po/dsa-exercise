@@ -1,5 +1,9 @@
+# Class to count the number of islands in a grid using BFS, where '1' represents land and '0' represents water.
+from collections import deque
+
 class Solution:
-    def numIslands(self, grid: List[List[str]]) -> int:
+    
+    def numIslands(self, grid: list[list[str]]) -> int:
         if not grid:
             return 0
         
