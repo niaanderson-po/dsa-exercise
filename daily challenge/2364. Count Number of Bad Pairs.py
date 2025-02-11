@@ -1,5 +1,10 @@
+#Class to count the total number of bad pairs (if i < j and j - i != nums[j] - nums[I]) in an array by using a hash map
+
+from collections import defaultdict
+
 class Solution:
-    def countBadPairs(self, nums: List[int]) -> int:
+    
+    def countBadPairs(self, nums: list[int]) -> int:
         good_pairs = 0
         total_pairs = 0
         count = defaultdict(int)

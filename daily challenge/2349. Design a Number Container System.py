@@ -1,3 +1,5 @@
+#Class to insert or replace a number at specific index, and retrieve the smallest index for a number using hash maps and a sorted set.
+
 from collections import defaultdict
 from sortedcontainers import SortedSet
 
