@@ -1,4 +1,4 @@
-#Class to count the total number of bad pairs (if i < j and j - i != nums[j] - nums[I]) in an array by using a hash map
+#Class to count the total number of bad pairs (if i < j and j - i != nums[j] - nums[i]) in an array by using a hash map
 
 from collections import defaultdict
 
