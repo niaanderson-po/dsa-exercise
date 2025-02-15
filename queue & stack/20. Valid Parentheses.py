@@ -1,6 +1,7 @@
 # Class to determine if a string containing '()', '{}', and '[]' has correctly nested and matched pairs using a stack.
 
 class Solution:
+    
     def isValid(self, s: str) -> bool:
         my_stack = []
         mapping = {
